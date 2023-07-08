@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import NavImage from '../components/Nav-Image.svelte'
+</script>
+<div class="outer-container">
+  
+<h1>Isaac Tecosky</h1>
+<div >
+  <NavImage />
+</div>
+
+</div>
+
+<style>
+.outer-container {
+  width: 100vw;
+}
+</style>

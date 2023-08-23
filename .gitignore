@@ -1,5 +1,6 @@
 .DS_Store
 node_modules
+functions
 /build
 /.svelte-kit
 /package
@@ -12,3 +13,4 @@ vite.config.ts.timestamp-*
 src/firebase.js
 .firebaserc
 firebase.json
+firebase-debug.log

@@ -1,8 +1,10 @@
+<script>
+  import NavBar from '$lib/components/NavBar.svelte';
+</script>
 
+<nav class="hidden md:block">
 
-<nav>
-
-  <a href="/"> Home </a>
+  <a class='font-display' href="/"> Home </a>
 
   <a href="/about"> About </a>
 
@@ -13,14 +15,10 @@
 <!-- page content renders in slot  -->
 <slot /> 
 
+<NavBar />
+
 <style>
-  
-  nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-transform: uppercase;
-  }
+
 
 
 
